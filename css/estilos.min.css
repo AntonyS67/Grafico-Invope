@@ -1,0 +1,24 @@
+input[type='number']{
+	width: 60px;
+	border-radius:3px;
+	-o-border-radius:3px;
+}
+form{
+	background: rgba(27,105,67,.3);
+	padding: 20px;
+}
+h3{
+	color: #1B6943;
+}
+.resultado{
+	background: rgba(27,105,67,.3);
+	font-family: sans-serif;
+	width: 400px;
+	height: 500px;
+	display: none;
+}
+.columna{
+	display: grid;
+	grid-template-columns: auto auto;
+	border-radius: 15px;
+}
