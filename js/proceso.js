@@ -14,7 +14,7 @@ function calcular(){
 					p1=((n3-n2*(x2))/n1);
 					men+="Primera Ecuacion";
 					men+="<br>";
-					men+="Puntos: <br>X1: "+x1+"<br>X2: "+p2;
+					men+="Puntos: <br>X1: "+x1+" X2: "+p2;
 					men+="<br>";
 					men+="X1: "+p1+"<br>X2: "+x2;
 					p3=((n6-n5*(x2))/n4);
