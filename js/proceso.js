@@ -1,3 +1,5 @@
+//Autor: Silva Rojas Antoni
+//Codigo de alumno: 0201614024
 function calcular(){
 				a=document.forms["form1"];
 				x1=a.elements[8].value;
