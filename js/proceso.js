@@ -27,8 +27,7 @@ function calcular(){
 					men+="Puntos: <br>X1: "+x1+"<br>X2: "+p4;
 					men+="<br>";
 					men+="X1: "+p3+"<br>X2: "+x2;
-					men+="---------------------------";
-					men+="F("+x1+","+p2+")";
+					
 				}
 				if(n3>n6){
 					xx=(n3*(n2-n5)-n2*(n3-n6))/((n1*n2)-(n1*n5)+n2*(n4-n1));
@@ -39,7 +38,10 @@ function calcular(){
 				}
 				int="Interseccion -> Optimo"+"<br>"+"X1: "+xx+"<br>X2: "+yy;
 					op=(n6-p1)/n5;
-				document.getElementById("resultado").innerHTML="Solucion"+"<br>"+"---------------------------"+"<br>"+men+"<br>"+"---------------------------"+"<br>"+int;
+				men+="---------------------------";
+				men+="F("+x1+","+p2+")= ";
+				document.getElementById("resultado").innerHTML="Solucion"+"<br>"+"---------------------------"+
+				"<br>"+men+"<br>"+"---------------------------"+"<br>"+int;
 }
 
 //parte de la grafica
